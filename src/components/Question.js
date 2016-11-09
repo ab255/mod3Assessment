@@ -19,7 +19,12 @@ export default class Question extends Component {
           return(
             <div key={i} className='answer'>
               <label>
-                <input type='checkbox' value={answer.score} className='checkbox'/>
+                <input
+                  type='radio'
+                  value={answer.score}
+                  className='checkbox'
+                  name={this.props.id}
+                />
                   {answer.title}
               </label>
             </div>
