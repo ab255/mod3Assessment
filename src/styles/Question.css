@@ -1,0 +1,29 @@
+.question-title {
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+.question-title-background {
+  background: #08627D;
+  height: 75px;
+  padding: 2px 20px;
+}
+
+.question-answer {
+  margin-bottom: 50px;
+  padding: 15px 0;
+}
+
+.answer {
+  background: #ddf4fb;
+  font-size: 1.5em;
+  padding: 15px 20px;
+}
+
+.checkbox {
+  margin-top: 8px;
+}
+
+label {
+  display: flex;
+}
